@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KN||car-details</title>
+<link rel="stylesheet" href="../css/styles.css">
+<script src="../js/jss.js"></script>
+<script src="../js/all.min.js"></script>
+</head>
+<body>
+<div class="navbar" id="navbar">
+  <img src="your-logo.png" alt="Logo">
+  <a href="../pages/index.html">Home</a>
+  <a href="../pages/about.html">why KN?</a>
+  <a href="../pages/suv.html">Inventory</a>
+  <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+  </a>
+</div>
+
+<section class="cardet">
+    <div class="big-card">
+      <img src="../images/sedans/kia_k5_2024_large-middle.png" alt="Car Image" class="car-image">
+      <div class="car-details">
+        <h2>Vehicle Details</h2>
+        <div class="row">
+          <div class="column">
+            <h3>Powertrain</h3>
+            <p>Auto | 1.6L, I-4</p>
+          </div>
+          <div class="column">
+            <h3>Colors</h3>
+            <p>Exterior: Silky Silver<br>Interior: Black Tricot and Woven Cloth</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h3>Top Features</h3>
+            <ul>
+              <li>1.6L Multi-Point Fuel Injection (MPI) 4-Cyl Engine</li>
+              <li>Intelligent Variable Automatic Transmission</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>Safety</h3>
+            <ul>
+              <li>Dual Front Advanced Airbags</li>
+              <li>Dual Front Seat-Mounted Side Airbags</li>
+              <li>Full-Length Side Curtain Airbags</li>
+              <li>Lower Anchors and Tethers for Children (LATCH)</li>
+              <li>Anti-Lock Braking System</li>
+              <li>Traction Control System</li>
+              <li>Electronic Stability Control</li>
+              <li>Vehicle Stability Management</li>
+              <li>Hill-Start Assist Control</li>
+              <li>Tire Pressure Monitoring System Warning Light</li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>Interior, Comfort & Convenience</h3>
+            <ul>
+              <li>8" Touchscreen w/Rear Camera & Dynamic Guidelines</li>
+              <li>Air Conditioning</li>
+              <li>Power Windows, Door Locks & Outside Mirrors</li>
+              <li>Wireless Android Auto & Apple CarPlay</li>
+              <li>USB Multimedia Port</li>
+              <li>Bluetooth(R) Wireless Technology</li>
+              <li>Multi-Adjustable Driver's Seat</li>
+              <li>Tilt Steering Column</li>
+              <li>Steering Wheel Mounted Audio Controls</li>
+              <li>Overhead Maplights & Sunglass Holder</li>
+              <li>Trip Computer</li>
+              <li>Engine Immobilizer</li>
+            </ul>
+          </div>
+          <div id="popup-form" class="popup-form">
+            <button class="exit-button">&times;</button> 
+            <form action="#" method="post">
+                    <div class="form-group">
+                      <label for="first-name">First Name *</label>
+                      <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="last-name">Last Name *</label>
+                      <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email *</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Phone</label>
+                      <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                      <label for="contact-method">Contact Method *</label>
+                      <select id="contact-method" name="contact-method" required>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                        <option value="call">Call</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" id="consent" name="consent" required>
+                      <label for="consent">I would like to be contacted by Kia America, Inc. (Kia) and receive emails for marketing and other purposes that include information and updates on products, services, and special offers. I acknowledge and agree that Kia will use my information in accordance with Kia’s Privacy Policy and I agree to Kia’s Terms of Use.</label>
+                    </div>
+                    <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <a href="#" class="butto">schedule a test drive</a>
+      </div>
+    </div>
+  </section>
+  
+</body>
+<footer class="footer">
+    <div class="container">
+      <div class="contact">
+        <h3>Contact Us</h3>
+        <p>Email: michealeva@gmail.com</p>
+        <p>Phone: +234986666235</p>
+        <p>Address: 123 Street, abuja, nigeria</p>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </html>
